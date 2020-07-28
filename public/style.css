@@ -1,0 +1,171 @@
+body>img
+{
+    width:100%;
+    height:253vh;
+    opacity: 0.4;
+}
+h1
+{
+    font-size: 250%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: orangered;
+}
+.container
+{
+     position: absolute;
+     left:30%;
+     top:2%;
+}
+.container h2
+{
+     font-size: 250%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container p
+{
+     font-size: 160%;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont
+{
+     height:450px;
+     width:45%;
+     overflow: auto;
+     position: absolute;
+     top:29%;
+     left:29%;
+}
+#text
+{
+     height:20px;
+     width:43%;
+     border-radius: 4px;
+}
+#button
+{
+     height:28px;
+     width:11%;
+     border-radius: 4px;
+}
+h3
+{
+     font-size: 145%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+     cursor: pointer;
+}
+h3:hover
+{
+     font-size: 155%;
+}
+.cont p
+{
+     font-size: 105%;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: italic;
+}
+.hide
+{
+     display: none;
+}
+.cont1
+{
+     position: absolute;
+     top:4%;
+     left:23%;
+     width:50%;
+}
+.cont1 img
+{
+      width:100%;
+      height:auto;
+}
+.cont1>p
+{
+      font-size: 165%;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+}
+
+.subcont
+{
+      display: grid;
+      grid-template-columns: repeat(2,70%);
+}
+.subcont p
+{
+      font-size: 143%;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-style: italic;
+      color: steelblue;
+}
+h4
+{
+    font-size: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    display: inline-block;
+}
+#back
+{
+    height:28px;
+     width:11%;
+     border-radius: 4px;
+     margin-left:2%;
+}
+@keyframes c1
+{
+0%
+{
+    opacity: 0;
+}
+20%
+{
+    opacity: 0.2;
+}
+40%
+{
+    opacity: 0.4;
+}
+60%
+{
+    opacity: 0.6;
+}
+80%
+{
+    opacity: 0.8;
+}
+100%
+{
+    opacity: 1;
+}
+}
+@keyframes c2
+{
+0%
+{
+    opacity: 1;
+}
+20%
+{
+    opacity: 0.8;
+}
+40%
+{
+    opacity: 0.6;
+}
+60%
+{
+    opacity: 0.4;
+}
+80%
+{
+    opacity: 0.2;
+}
+100%
+{
+    opacity: 0;
+}
+}        
